@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias Paraná</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #b30000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #800000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .categoria {
+            color: #b30000;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        .titulo {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #111;
+        }
+
+        .subtitulo {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .autor {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .imagem {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        article p {
+            margin-bottom: 18px;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .titulo {
+                font-size: 1.6rem;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portal Noticias Paraná</h1>
+        <p>Informação com responsabilidade</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Polícia</a>
+        <a href="#">Cidade</a>
+        <a href="#">Brasil</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <div class="container">
+        <div class="categoria">Cidade</div>
+
+        <h2 class="titulo">Casal de irmãos é abandonado pela mãe e mobiliza vizinhos em cidade do Paraná</h2>
+
+        <p class="subtitulo">
+            Crianças foram encontradas sozinhas em casa e receberam ajuda de moradores até a chegada do Conselho Tutelar.
+        </p>
+
+        <p class="autor">Por Samuel Alexandre Pereira — 17 de julho de 2026</p>
+
+        <img src="imagem.jpeg" alt="Imagem local">
+
+        <article>
+            <p>
+                Um casal de irmãos, de 14 e 21 anos, foi encontrado sozinho dentro da própria residência na manhã desta sexta-feira (17), em um bairro da cidade de Mandaguari-PR. De acordo com moradores da região, as crianças estavam sem a presença de um responsável havia pelo menos dois dias, o que levou vizinhos a acionarem o Conselho Tutelar.
+            </p>
+
+            <p>
+                Segundo relatos, os irmãos foram vistos pedindo ajuda para conseguir alimentos. Sensibilizados com a situação, moradores ofereceram refeições e permaneceram próximos da residência até a chegada das autoridades.
+            </p>
+
+            <p>
+                Equipes do Conselho Tutelar e da assistência social estiveram no local e confirmaram o abandono. As crianças foram encaminhadas para atendimento médico e psicológico e, posteriormente, acolhidas em um abrigo provisório enquanto o caso é investigado.
+            </p>
+
+            <p>
+                A Polícia Civil informou que a mãe das crianças ainda não foi localizada. Testemunhas afirmam que ela teria deixado a casa sem informar parentes ou vizinhos para fazer uma viagem com o suposto namorado. O caso foi registrado como abandono de incapaz, crime previsto no Código Penal.
+            </p>
+
+            <p>
+                Em nota, a Secretaria Municipal de Assistência Social afirmou que acompanha a situação e que está buscando familiares que possam assumir a guarda temporária das crianças.
+            </p>
+
+            <p>
+                Moradores do bairro se organizaram para arrecadar roupas, materiais escolares e brinquedos para os irmãos. “Foi uma situação muito triste. As crianças estavam assustadas e sem entender o que estava acontecendo”, contou uma vizinha que preferiu não se identificar.
+            </p>
+
+            <p>
+                As investigações continuam para esclarecer as circunstâncias do abandono e localizar a responsável pelas crianças.
+            </p>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; Portal de Noticias Paraná - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
